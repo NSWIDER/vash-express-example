@@ -1,0 +1,9 @@
+@html.extend('layout', function(model){
+
+    @html.block('footer', function(model){
+            
+        <h2>This is the Footer!</h2> 
+
+    })
+
+})
